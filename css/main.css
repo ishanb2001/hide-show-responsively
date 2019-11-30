@@ -66,3 +66,21 @@ body {
 }
 
 @media only screen and (min-width: 60em) {
+
+  .dino:nth-child(2){
+        display: flex;
+        display: none;
+      }
+    }
+
+.dino:nth-child(3){
+      display: flex;
+      display: none;
+    }
+  }
+
+.dino:nth-child(4){
+        display: flex;
+        display: none;
+  }
+}
