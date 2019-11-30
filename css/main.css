@@ -25,17 +25,21 @@ body {
   display: flex;
 }
 
+img {
+  width: 100%;
+}
+
 @media only screen and (min-width: 25em) {
 
-  .dino{
-    width: 100%;
-  }
+.dino{
+  width: 99%;
+}
 
-.dino:nth-child(1){
+.dino:nth-child(2){
   display: none;
   }
 
-.dino:nth-child(2){
+.dino:nth-child(4){
   display: none;
   }
 }
@@ -43,7 +47,7 @@ body {
 @media only screen and (min-width: 38em) {
 
 .dino{
-  width: 100%;
+  width: 50%;
 }
 .dino:nth-child(1){
   display: block;
@@ -58,21 +62,25 @@ body {
 }
 
 .dino:nth-child(4){
-
-  display: none;
+  display: block;
   }
 }
 
 @media only screen and (min-width: 60em) {
 
-  .dino:nth-child(2){
+.dino{
+    width: 100%;
+}
+
+.dino:nth-child(2){
   display: block;
-      }
+  }
 
 .dino:nth-child(3){
   display: block;
-    }
+  }
 
 .dino:nth-child(4){
   display: block;
   }
+}
