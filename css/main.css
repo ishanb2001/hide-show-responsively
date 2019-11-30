@@ -24,3 +24,28 @@ img {
   display: block;
   width: 100%;
 }
+img:nth-child(4){
+  display: none;
+}
+
+img:nth-child(2){
+  display: none;
+}
+
+.dino-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 25em) {
+
+    img:nth-child(3) {
+      display: block;
+    }
+
+    img:nth-child(2) {
+      display: block;
+    }
+}
+
+@media only screen and (min-width: 38em) {
