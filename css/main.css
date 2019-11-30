@@ -17,35 +17,52 @@ html {
 }
 
 body {
-  margin 0;
-}
-
-img {
+  margin: 8px;
   display: block;
-  width: 100%;
-}
-img:nth-child(4){
-  display: none;
 }
 
-img:nth-child(2){
-  display: none;
-}
-
-.dino-wrap {
+.dino {
   display: flex;
-  flex-wrap: wrap;
 }
 
 @media only screen and (min-width: 25em) {
 
-    img:nth-child(3) {
-      display: block;
-    }
+.dino:nth-child(1){
+  display: flex;
+  display: none;
+  }
+}
 
-    img:nth-child(2) {
-      display: block;
-    }
+.dino:nth-child(2){
+    display: flex;
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 38em) {
+
+.dino:nth-child(1){
+    display: flex;
+    display: none;
+    }
+  }
+
+  .dino:nth-child(3){
+        display: flex;
+        display: none;
+      }
+    }
+
+.dino:nth-child(2){
+      display: flex;
+      display: none;
+    }
+  }
+
+.dino:nth-child(4){
+        display: flex;
+        display: none;
+  }
+}
+
+@media only screen and (min-width: 60em) {
