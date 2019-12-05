@@ -29,7 +29,11 @@ img {
 }
 
 .dino-wrap {
-  width: 80%;
+  width: 100%;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .dino:nth-child(2){
@@ -43,7 +47,7 @@ img {
 @media only screen and (min-width: 25em) {
 
   .dino-wrap {
-    width: 50%;
+    width: 85%;
   }
 
   .dino{
