@@ -17,70 +17,90 @@ html {
 }
 
 body {
-  margin: 8px;
-  display: block;
+  margin: 0;
 }
 
 .dino {
-  display: flex;
 }
 
 img {
   width: 100%;
+  display: block;
+}
+
+.dino-wrap {
+  width: 80%;
+}
+
+.dino:nth-child(2){
+  display: none;
+}
+
+.dino:nth-child(4){
+  display: none;
 }
 
 @media only screen and (min-width: 25em) {
 
-.dino{
-  width: 99%;
-}
-
-.dino:nth-child(2){
-  display: none;
+  .dino-wrap {
+    width: 50%;
   }
 
-.dino:nth-child(4){
-  display: none;
+  .dino{
+    width: 100%;
   }
+
 }
 
 @media only screen and (min-width: 38em) {
 
-.dino{
-  width: 50%;
-}
-.dino:nth-child(1){
-  display: block;
-}
-
-.dino:nth-child(3){
-  display: block;
-}
-
-.dino:nth-child(2){
-  display: block;
-}
-
-.dino:nth-child(4){
-  display: block;
+  .dino{
+    width: 50%;
   }
+
+
+  .dino:nth-child(1) {
+    display: block;
+    float: right;
+
+  }
+
+  .dino:nth-child(2){
+    display: block;
+    float: left;
+  }
+
+  .dino:nth-child(3) {
+    display: block;
+    float: right;
+
+  }
+
+  .dino:nth-child(4){
+    display: block;
+    float: left;
+  }
+
+
 }
+
 
 @media only screen and (min-width: 60em) {
 
-.dino{
+  .dino{
     width: 100%;
-}
-
-.dino:nth-child(2){
-  display: block;
   }
 
-.dino:nth-child(3){
-  display: block;
+  .dino-wrap{
+    display: flex
   }
 
-.dino:nth-child(4){
-  display: block;
+  .dino:nth-child(2){
+    display: block;
   }
+
+  .dino:nth-child(4){
+    display: block;
+  }
+
 }
