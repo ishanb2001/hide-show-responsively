@@ -71,24 +71,28 @@ img {
 @media only screen and (min-width: 38em) {
 
   .dino{
-    width: 20%;
+    width: 100%;
   }
 
-  .dino:nth-child(1) {
-    display: block;
-    float: right;
-
+  .dino-wrap{
+    display: flex
   }
 
   .dino:nth-child(2){
     display: block;
-    float: left;
   }
 
-  .dino:nth-child(3) {
+  .dino:nth-child(4){
     display: block;
-    float: right;
+  }
 
+}
+  .dino:nth-child(1){
+    display: block;
+  }
+
+  .dino:nth-child(3){
+    display: block;
   }
 
 }
