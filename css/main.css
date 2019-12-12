@@ -31,6 +31,8 @@ img {
   margin-left: 0.5em;
   margin-right: 0.5em;
   margin-bottom: 0.5em;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .dino:nth-child(2){
@@ -44,29 +46,16 @@ img {
 @media only screen and (min-width: 25em) {
 
   .dino{
-    width: 100%;
+    width: 50%;
   }
 
   .dino:nth-child(2){
-    display: inline-block;
-    float: left;
-  }
-
-  .dino:nth-child(3){
-    display: inline-block;
-    float: left;
+    display: block;
   }
 
   .dino:nth-child(4){
-    display: inline-block;
-    float: right;
+    display: block;
   }
-
-  .dino:nth-child(5){
-    display: inline-block;
-    float: right;
-  }
-}
 
 @media only screen and (min-width: 38em) {
 
