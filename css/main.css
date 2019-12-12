@@ -26,32 +26,33 @@ img {
   flex-wrap: wrap;
 }
 
-.dino:nth-child(4){
-  display: none;
-}
-.dino:nth-child(2){
+.dino:nth-child(4) {
   display: none;
 }
 
+.dino:nth-child(2) {
+  display: none;
+}
 
 @media only screen and (min-width: 25em) {
 
-  .dino:nth-child(2){
+  .dino:nth-child(2) {
     display: block;
   }
 
-  .dino:nth-child(4){
+  .dino:nth-child(4) {
     display: block;
- }
-    .dino {
-      width: 50%;
-
   }
+
+  .dino {
+    width: 50%;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
 
-  .dino:nth-child(1){
+  .dino:nth-child(1) {
     display: none;
   }
 
@@ -63,7 +64,7 @@ img {
 
 @media only screen and (min-width: 60em) {
 
-  .dino{
+  .dino {
     width: 25%;
   }
 
