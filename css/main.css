@@ -22,11 +22,6 @@ img {
 }
 
 .dino-wrap {
-  width: 100%;
-  margin-top: 0.5em;
-  margin-left: 0.5em;
-  margin-right: 0.5em;
-  margin-bottom: 0.5em;
   display: flex;
   flex-wrap: wrap;
 }
@@ -41,17 +36,16 @@ img {
 
 @media only screen and (min-width: 25em) {
 
-  .dino{
-    width: 49%;
-  }
-
-
   .dino:nth-child(2){
     display: block;
   }
 
   .dino:nth-child(4){
     display: block;
+ }
+    .dino {
+      width: 50%;
+
   }
 }
 
@@ -61,7 +55,7 @@ img {
     display: none;
   }
 
-  .dino{
+  .dino {
     width: 33.33%;
   }
 
@@ -73,7 +67,7 @@ img {
     width: 25%;
   }
 
-  .dino:nth-child(1){
+  .dino:nth-child(1) {
     display: block;
   }
 
